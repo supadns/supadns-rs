@@ -4,6 +4,8 @@ version = "1.0.0"
 edition = "2021"
 description = "Bypass blocked DNS for Supabase using DNS-over-HTTPS"
 license = "MIT"
+repository = "https://github.com/supadns/supadns-rs"
+documentation = "https://github.com/supadns/supadns-rs#readme"
 keywords = ["supabase", "dns", "doh", "dns-over-https", "bypass"]
 
 [dependencies]
