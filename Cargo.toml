@@ -1,0 +1,15 @@
+[package]
+name = "supadns"
+version = "1.0.0"
+edition = "2021"
+description = "Bypass blocked DNS for Supabase using DNS-over-HTTPS"
+license = "MIT"
+keywords = ["supabase", "dns", "doh", "dns-over-https", "bypass"]
+
+[dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json"] }
+tokio = { version = "1", features = ["full"] }
+rustls = "0.23"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full", "test-util"] }
